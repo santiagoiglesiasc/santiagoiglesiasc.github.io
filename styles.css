@@ -461,6 +461,10 @@ body {
     height: 220px;
   }
 
+  .hero-name {
+  font-size: 1.6rem;
+  }
+
   .contact-content {
   grid-template-columns: 1fr;
   }
