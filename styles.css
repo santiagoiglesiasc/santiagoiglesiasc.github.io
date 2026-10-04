@@ -446,8 +446,13 @@ body {
     gap: 2rem;
   }
 
-  .hero-photo {
-    justify-content: flex-start;
+  .hero-inner > .hero-photo {
+  grid-row: 1;
+  justify-content: center;
+  }
+
+  .hero-inner > .hero-text {
+  grid-row: 2;
   }
 
   .profile-photo,
